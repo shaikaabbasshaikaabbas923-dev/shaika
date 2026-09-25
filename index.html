@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/jpeg" href="/logo.jpg" />
+    <link rel="apple-touch-icon" href="/logo.jpg" />
+    <title>YAMAMA SHAWAYA | Fresh Shawaya, Shawarma & Grilled Food</title>
+    <meta name="description" content="YAMAMA SHAWAYA on Calicut Road (Angadippuram – Thirurkad Route), Kerala. Speciality Bishawari Rice & Flame-Roasted Shawaya Combos (Half ₹340, Full ₹660, Quarter ₹180). Free Home Delivery from 12:00 PM to 12:00 AM." />
+    
+    <!-- OpenGraph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="YAMAMA SHAWAYA | Fresh Shawaya, Shawarma & Grilled Food" />
+    <meta property="og:description" content="YAMAMA SHAWAYA on Calicut Road (Angadippuram – Thirurkad Route), Kerala. Speciality Bishawari Rice & Flame-Roasted Shawaya Combos. Free Home Delivery from 12:00 PM to 12:00 AM." />
+    <meta property="og:image" content="/logo.jpg" />
+    <meta property="og:site_name" content="YAMAMA SHAWAYA" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="YAMAMA SHAWAYA | Fresh Shawaya, Shawarma & Grilled Food" />
+    <meta name="twitter:description" content="YAMAMA SHAWAYA on Calicut Road (Angadippuram – Thirurkad Route). Speciality Shawaya Combos, Bishawari Rice, Bene Tibi Mojitos, and Free Home Delivery." />
+    <meta name="twitter:image" content="/logo.jpg" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Syne:wght@600;700;800&family=Cinzel:wght@600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Restaurant Schema JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "YAMAMA SHAWAYA",
+      "image": "/src/assets/images/yamama_restaurant_exterior_1790246150837.jpg",
+      "description": "Authentic Arabian flame-roasted Shawaya chicken, Bishawari rice combos, Bene Tibi mojitos, and family dining on Calicut Road, Angadippuram, Malappuram, Kerala.",
+      "servesCuisine": ["Middle Eastern", "Arabian", "Shawaya", "Bishawari Rice", "Barbecue", "Grill"],
+      "priceRange": "₹₹",
+      "telephone": "+919747362101",
+      "email": "yamamashawaya@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Oradampalam-Valiyaveetilpadi, Calicut Road (Angadippuram – Thirurkad Route)",
+        "addressLocality": "Angadippuram, Malappuram",
+        "addressRegion": "Kerala",
+        "postalCode": "679321",
+        "addressCountry": "IN"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "12:00",
+          "closes": "23:59"
+        }
+      ],
+      "hasMenu": "#menu"
+    }
+    </script>
+  </head>
+  <body class="bg-[#0A0706] text-[#FAF5EC] antialiased selection:bg-[#EA580C] selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

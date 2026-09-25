@@ -1,0 +1,6 @@
+{
+  "name": "YAMAMA SHAWAYA - Fresh Shawaya, Shawarma & Grilled Food",
+  "description": "Premium modern Arabic shawaya and grilled-food restaurant featuring authentic flame-roasted chicken, juicy shawarma wraps, and fresh meals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
